@@ -12,6 +12,8 @@ class ContactListVC: UITableViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(createInsertAlert))
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .edit , target: self, action: #selector(createDeletAlert))
     }
+
+
 }
 
 //MARK :- table extensions
